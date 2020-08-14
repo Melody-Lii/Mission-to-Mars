@@ -1,9 +1,9 @@
-# Import Splinter, BeautifulSoup, and Pandas
-
-from splinter import Browser 
-from bs4 import BeautifulSoup 
+ # Import Splinter, BeautifulSoup, and Pandas
+from splinter import Browser
+from bs4 import BeautifulSoup
 import pandas as pd
 import datetime as dt
+
 
 def scrape_all():
     # Initiate headless driver for deployment
